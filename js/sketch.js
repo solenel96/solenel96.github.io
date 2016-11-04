@@ -130,7 +130,7 @@ function draw() {
 
 
   for (x = 24; x<width-25; x += 48){
-    for (y = 15; y<height-25; y += 15){
+    for (y = 15; y<height-25; y += 25){
 
       if(random(100) < 2) {
         stroke(255);
